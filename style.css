@@ -1,0 +1,276 @@
+*{
+  color: #FFFFFF;
+  
+}
+body{
+  margin:0%;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #212121;
+  
+}
+
+
+/* styles here will apply in portrait mode on small screens */
+@media only screen and (max-width: 768px) and (orientation: portrait) 
+{
+.animate {
+  animation: animate 0.5s;
+}
+@keyframes animate {
+  0% {
+    transform: scaleX(0);
+  }
+  100%{
+    transform: scaleX(1);
+  }
+}
+  #slidebar1{
+ display: none;
+ position: fixed;
+  width:70%;
+  height: 715px;
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-top: 68px;
+    
+ }
+ #cancelbut{
+   padding-left: 80%;
+   padding-top: 7%;
+   margin-bottom: 50px;
+ }
+  
+  #elements {
+  padding-left: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #f1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: block;
+    
+  }
+  
+  #top1{
+  background-color: #212121;
+  width: 100%;
+  height:65px;
+  display: flex;
+  position: fixed;
+  margin-top: 0;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom: 0.5px solid white;
+}
+#menu{
+  font-size: 25px;
+}
+#opt1{
+  display: none;
+}
+#tit1{
+  margin-top: 0;
+  padding-top: 14px;
+  margin-left:-45px;
+  font-size: 26px;
+}
+#mid1{
+  background-color: #212121;
+  width: 100%;
+  height: 100%;
+  padding-top: 65px;
+  padding-bottom: 20px;
+}
+
+#bot1{
+  background-color: #212121;
+  width: 100%;
+  height:650px;
+ 
+}
+
+#img{
+  width:300px;
+  height:300px;
+  border-radius: 25px;
+}
+#img1{
+  width:70%;
+  margin-left:8%;
+  margin-top: 2%;
+  margin-bottom:4%;
+  height: 300px;
+  padding-left: 50px;
+  padding-top: 25px;
+  background-color: #212121;
+  border-radius:25px;
+  border: 1px solid white;
+}
+
+#home{
+ display:none;
+ color: red;
+ width: 95%;
+ height: 100%;
+ margin-top: 67px;
+ margin-left:10px;
+ border-radius: 25px;
+ background-color: greenyellow;
+ position: fixed;
+}
+
+#about{
+ display:none;
+ color: red;
+ width: 95%;
+ height: 100%;
+ margin-top: 68px;
+ margin-left:10px;
+ border-radius: 25px;
+ background-color: greenyellow;
+ position: fixed;
+}
+
+#contact {
+  display: none;
+  color: red;
+  width: 95%;
+  height: 100%;
+  margin-top: 68px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: greenyellow;
+  position: fixed;
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) ,(orientation: landscape)
+{
+    #top1{
+  background-color: #212121;
+  width: 100%;
+  height:75px;
+  display: flex;
+  position: fixed;
+  margin-top: 0;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border:1px solid white;
+}
+#slidebar1{
+  display: none;
+}
+#t1{
+  width: 60%;
+  text-align: center;
+
+  margin-left: 8px;
+}
+#b3{
+  display: none;
+}
+#tit1{
+  
+}
+#opt1{
+  width: 70%;
+  padding-left: 40%;
+  padding-top: 25px;
+ 
+}
+#mid1 {
+  background-color: #212121;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#bot1{
+  background-color: slategrey;
+  width: 100%;
+  height:650px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+#img{
+  width:300px;
+  height:300px;
+  border-radius: 25px;
+}
+
+#img1 {
+  width: 30%;
+  margin-left: 8%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  height: 300px;
+  padding-left: 98px;
+  padding-top: 25px;
+  background-color: #212121;
+  border-radius: 25px;
+  border: 1px solid white;
+  flex-basis: calc(33.33% - 16px); 
+}
+
+
+#home{
+ display:none;
+ color: red;
+ width: 94%;
+ height: 100%;
+ margin-top: 82px;
+ margin-left: 18px;
+ padding-left:30px;
+ border-radius: 30px;
+ background-color: greenyellow;
+ position: fixed;
+}
+
+#about{
+  display:none;
+  color: red;
+  width: 94%;
+  height: 100%;
+  margin-top: 82px;
+  margin-left: 18px;
+  padding-left:30px;
+  border-radius: 30px;
+  background-color: greenyellow;
+  position: fixed;
+}
+
+#contact {
+   display:none;
+   color: red;
+   width: 94%;
+   height: 100%;
+   margin-top: 82px;
+   margin-left: 18px;
+   padding-left:30px;
+   border-radius: 30px;
+   background-color: greenyellow;
+   position: fixed;
+}
+
+ #cancelbut{
+   padding-left: 50%;
+   padding-top: 7%;
+   margin-bottom: 50px;
+ }
+
+
+}

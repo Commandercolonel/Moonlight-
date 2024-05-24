@@ -1,0 +1,22 @@
+function slidebar(value) {
+  var element = document.getElementById(value);
+  var el1=document.body;
+  element.style.display = "block";
+  element.style.backgroundColor="#212121";
+  element.classList.add('animate');
+  
+}
+
+function reposition(value) {
+  var ele=document.getElementById(value);
+  ele.style.display ="none";
+}
+
+function homie(value) {
+  var element = document.getElementById(value);
+  var el1=document.body;
+  element.style.display = "block";
+  element.style.backgroundColor="#212121"; 
+  element.classList.add('animate');
+  
+}
